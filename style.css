@@ -12,9 +12,8 @@ h1{
     text-align: left;
     color: teal;
 }
-.subcontainer{
+.container{
     margin-top: 50px;
-    border: solid 3px grey;
 }
 
 .top-b{
@@ -36,5 +35,10 @@ h1{
 
 body{
     background-image: url("prism.png");
+
+}
+
+.mainbox{
+    border: solid 3px grey;
 
 }
