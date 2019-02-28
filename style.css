@@ -1,9 +1,8 @@
 .logo{
     background-color: teal;
-    color: white;
     font-weight: bold;
     width: 160px;
-    height: 100%;
+    /* height: 10px; */
     text-align: center;
     font-size:24px;
 }
@@ -15,7 +14,7 @@ h1{
 }
 
 .top-b{
-    border-top: solid 3px grey;
+    border-top: solid 2px grey;
 }
 
 .brooding{
@@ -35,6 +34,6 @@ body{
 }
 
 .mainbox{
-    border: solid 3px grey;
+    border: solid 2px grey;
 
 }
