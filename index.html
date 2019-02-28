@@ -16,58 +16,69 @@
 
 <body>
   <!-- Navbar, oh mighty navbar -->
-  <nav class="navbar navbar-expand-md navbar-light bg-white px-0 py-0 sticky-top">
-    <a class="navbar-brand text-white logo" href="#">Abram Thau</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
-      aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarText">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="index.html">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="portfolio.html">Portfolio</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
+  <!-- Removed top level container class on advice from documentation to get the layout I wanted -->
+  <div class="row sticky-top mx-0 px-0">
+    <div class="col-md-3 bg-white"></div>
+    <nav class="navbar navbar-expand-md navbar-light bg-white px-md-0 py-0 col-md-6">
+      <a class="navbar-brand text-white logo" href="#">Abram Thau</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="col-md-3 bg-white"></div>
+  </div>
 
-<!-- highest level is a single row with 3 col, only center populated, sides there for spacing-->
-  <div class="container mt-md-5">
-    <div class="row">
-      <div class="col-md-2"></div>
-      <div class="col-md-8 bg-white mainbox">
-        <div class="row">
-          <div class="col px-0 mx-4">
-            <h1>About Me</h1>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col px-0 mx-4 top-b">
-            <img src="Me_sepia.jpg" class="brooding" title="yeppers">
-            <p id="bio">
-              I've always felt that the world is just so full of things. Great things, horrifying things, too many to
-              possibly experience in a lifetime. That's probably why my apartment is home to several musical intruments,
-              some karate weaponry, a couple of 3D printers, and a metric ton of books. Also two cats, who help out
-              during
-              computer time by bopping me with their paws at random intervals.
-
-              Fun fact about me: there are many fun facts about me! Many are common-level rarity, like my story about a
-              humorous encounter with a baby moose. But for the rare, or even the highly coveted ultra-rare facts? Those
-              are only available in person, as specified by the International Fun Fact Treaty of 1722.
-            </p>
-          </div>
+  <!-- highest level is a single row with 3 col, only center populated, sides there for spacing-->
+  <!-- Removed top level container class on advice from documentation to get the layout I wanted -->
+  <div class="row mt-md-5 mx-0 px-0">
+    <div class="col-md-3"></div>
+    <div class="col-md-6 bg-white mainbox">
+      <div class="row">
+        <div class="col px-0 mx-4">
+          <h1>About Me</h1>
         </div>
       </div>
-      <div class="col-md-2"></div>
+      <div class="row">
+        <div class="col px-0 mx-4 top-b">
+          <img src="Me_sepia.jpg" class="brooding" title="Sepia: the ultimate color scheme for brooding">
+          <p id="bio">
+            I've always felt that the world is just so full of things. Great things, horrifying things, too many to
+            possibly experience in a lifetime. That's probably why my apartment is home to several musical intruments,
+            some karate weaponry, a couple of 3D printers, and a metric ton of books. Also two cats, who help out
+            during
+            computer time by bopping me with their paws at random intervals.
+
+            Fun fact about me: there are many fun facts about me! Many are common-level rarity, like my story about a
+            humorous encounter with a baby moose. But for the rare, or even the highly coveted ultra-rare facts? Those
+            are only available in person, as specified by the International Fun Fact Treaty of 1722.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3"></div>
+  </div>
+
+  <!-- Ye Olde Footer -->
+  <div class="row fixed-bottom footer text-center mx-0 px-0">
+    <div class="col my-md-0 py-md-1">
+      copyright &copy
     </div>
   </div>
-  <!-- Ye Olde Footer -->
+
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
