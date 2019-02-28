@@ -17,10 +17,6 @@ h1{
     color: teal;
 }
 
-.head{
-    border-bottom: solid 2px grey;
-}
-
 .top-b{
     border-top: solid 2px grey;
 }
@@ -50,4 +46,11 @@ body{
     border-top: solid 4px teal;
     background-color: grey;
     color: white;
+}
+
+.thumb{
+    display: block !important;
+    margin-left: auto  !important;
+    margin-right: auto  !important;
+    /* width: 50%  !important; */
 }
