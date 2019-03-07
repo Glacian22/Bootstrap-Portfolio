@@ -54,3 +54,13 @@ body{
     margin-right: auto  !important;
     /* width: 50%  !important; */
 }
+
+.label{
+    background-color: teal;
+    color: white;
+    margin-left: 3rem  !important;
+    margin-right: 3rem  !important;
+    position: relative;
+    bottom: 30px;
+
+}
